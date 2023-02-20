@@ -1,0 +1,43 @@
+.carte {
+
+    margin: 20px;
+    min-width: 100px;
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+
+#divCartes{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width:630px;
+    border:3px solid black;
+    overflow: hidden;
+    transition: height 2s;
+    background-color: rgba(255, 255, 255, 0.383);
+
+
+
+
+}
+
+input[type = button] {
+
+
+    padding: 10px;
+
+}
+
